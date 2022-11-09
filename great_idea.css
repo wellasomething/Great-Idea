@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+}
+.contain{
+    margin:10px 200px;
+}
+.nave{
+    display: block;
+    text-align:left;
+    background-color: white;
+    padding: 5px 0 5px 0;
+}
+
+.nave a {
+    text-decoration: none;
+    color: black;
+    margin: 70px 100px 70px 0  ;
+    text-align: left;
+}
+
+.nave a:hover{
+    color: forestgreen;
+}
+
+.rad{
+    border-radius: 180px;
+    width: 360px;
+    position: relative;
+    left:100px;
+    
+}
+.rad:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.content-holder{
+    display: flex;
+  justify-content: space-between;
+}
+
+.content{
+    margin: 50px;
+    width:100%;
+}
+.text{
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 10px;
+   
+    text-align: center;
+    
+    
+}
+
+span{
+    border:2px solid black ;
+    color: black ;
+    cursor: pointer;
+    font-size: 15px;
+    padding:10px 60px;
+    font-style: normal;
+    position: relative;
+    left:150px;
+    top:30px;
+    border-radius: 20px;
+    
+}
+
+span:hover{
+    color:white;
+    background-color: black;
+    background-image: linear-gradient(to right, black,rgb(175, 248, 175), blue, green, black);
+}
+
+img{
+    width:100%;
+    padding: 10px 0;
+}
+
+
+.abtfeat{
+    display:flex;
+    text-align: justify;
+    
+}
+
+.abt{
+    margin: 10px;
+}
+
+.other {
+    display:flex;
+   
+    text-align: justify;
+}
+.ser {
+    margin:10px
+}
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+}

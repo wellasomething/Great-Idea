@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+}
+.contain{
+    margin:10px 200px;
+}
+.nave{
+    display: block;
+    text-align:left;
+    background-color: white;
+    padding: 5px 0 5px 0;
+}
+
+.nave a {
+    text-decoration: none;
+    color: black;
+    margin: 70px 100px 70px 0  ;
+    text-align: left;
+}
+
+.nave a:hover{
+    color: forestgreen;
+}
+
+.firstimage{
+    width: 100%;
+    margin-top: 10px;
+}
+.product{
+    display: flex;
+   width:100%;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.prod{
+    margin:20px 0;
+    height:220px;
+    width: 45%;
+    background-color: rgb(232, 232, 232);
+    padding: 20px;
+    text-align: justify;
+    border:1px solid black;
+}
+
+.last{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.press{
+    margin-top: 20px;
+    width:48%;
+}
+
+.secondimage{
+    width: 100%;
+    height:400px;
+}
+
+span{
+    border:2px solid black ;
+    color: black ;
+    cursor: pointer;
+    font-size: 15px;
+    padding:10px 10px;
+    font-style: normal;
+    display: block;
+    text-align: center;
+    margin-right: 400px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+span:hover{
+    background-color: black;
+    color:white;
+    
+}
+
+h3 {
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -5px;
+    letter-spacing: -2px;
+}
+
+h2{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -2px;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+}
+
+ul{
+    line-height: 25px;
+    margin-top: 20px;
+}
