@@ -114,10 +114,7 @@ h2{
     display: block;
   }
   
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
+ 
 
 footer{
     text-align: center;
@@ -129,3 +126,55 @@ ul{
     margin-top: 20px;
 }
 
+@media only screen and (max-width: 500px){
+   
+    .container{
+        width: 100%;
+    }
+    .dropdown{
+        display: block;
+        text-align: center;
+        padding: 15px 0 15px 80px;
+        border-bottom: 2px  solid rgb(200, 200, 200);
+    }
+    .dropdown:hover{
+        display: none;
+    }
+    
+    .contain{
+        margin: 0;
+      
+    }
+    .firstimage{
+        width: 100%;
+    }
+    .product{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+    
+    }
+
+    .prod {
+      padding: 10px;
+       width: 96%;
+       height: fit-content;
+    }
+
+    .last{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .press{
+        width: fit-content;
+    }
+
+    span{
+        width: 100px;
+
+    }
+    hr{
+        width: 100%;
+    }
+}
