@@ -178,7 +178,9 @@ footer{
     
 }
 .anchor{
-    width: 100%
+    width: 100%;
+    cursor: pointer;
+
 }
 .text{
    margin: 5px;
